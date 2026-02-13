@@ -125,10 +125,13 @@ syncData.forEach((item)=>{
             Array.from(lyrics.children).forEach(child =>{
                 child.classList.remove('active');
             });
+            
              lov.currentTime = 0;  // Reset to beginning
+            lyrics.style.animation="none";
+            void lyrics.offsetWidth;
+            lyrics.style.animation="scrollup 80s linear infinite" ;             
            lov.play();           // Play again
-         
-                
+       
         }
    
 
