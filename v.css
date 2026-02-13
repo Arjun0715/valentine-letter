@@ -6,7 +6,7 @@ body {
     justify-content: center;
     align-items: center;
     background-image: radial-gradient(rgb(225, 56, 9),#012);
-    font-family: "Pixelify Sans", sans-serif;
+    font-family: "Indie+Flower","Lobster";
 }
 
 /* Envelope Screen */
@@ -148,4 +148,17 @@ top: 0;
 width: 100%;
 height: 100%;
 background-color: #00000033;
+}
+
+.active{
+      
+        opacity:1;
+        background:linear-gradient(135deg,#ff9a9e,#fad0c4) ;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color:transparent;
+        display: inline-block;
+}
+.div{
+   
+    opacity:0.2;
 }
